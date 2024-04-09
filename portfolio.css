@@ -1,0 +1,82 @@
+/* CSS styles */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff; /* Light blue background color */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4682b4; /* Steel blue header background color */
+    color: #fff;
+    padding: 18px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 36px; /* Increase the font size for the heading */
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+}
+
+h1, h2, h3 {
+    color: #4682b4; /* Blue color for headings */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #4682b4; /* Blue color for submit button */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #357ebd; /* Darker blue color on hover */
+}
+
+footer {
+    background-color: #4682b4; /* Steel blue footer background color */
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
